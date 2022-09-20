@@ -25,36 +25,36 @@ import csv
 
 # open the vendorlist file
 
+dict1 = {}
+
+with open ('VendorList.csv', 'r') as infile:
+    for line in infile:
+        items = line.split()
+        key, values = 
+        dict1[key] = 
+print(dict1)
+
+
+
+with open('marketinglistFINAL.csv', 'w') as outfile
+    for :
+        outfile.write()
+
+outfile.close()
+
 
 # create a csv object from the file object
 
-
 # create an output file
-
-
-
-
 
 # create an empty dictionary
 
-
-
 # iterate through the csv object
-
-
-
 
     # add the key-value pair to the dictionary
 
-
-
 # print the dictionary after the loop is finished
-
-
 
 # iternate through the dictionary and write to the output file
 
-
-
 # close your output file
-
